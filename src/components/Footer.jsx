@@ -1,4 +1,4 @@
-import Logo from ".Logo"
+import Logo from "./Logo"
 import {Phone, MapPin, Instagram} from "lucide-react"
 export default function Footer() {
   return(
