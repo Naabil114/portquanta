@@ -18,8 +18,14 @@ export default function Header() {
           <Link href="/ports" className="text-gray-700 hover:text-gray-900">
             Ports
           </Link>
-          <Link href="/" className="text-gray-700 hover:text-gray-900">
+          <Link href="/" className={`${pathname === "/" ? `underline` : ``} text-gray-700 hover:text-gray-900`}>
             Home
+          </Link>
+          <Link href="/disbursements" className="text-gray-700 hover:text-gray-900">
+          Disbursements
+          </Link>
+          <Link href="/accountbalance" className="text-gray-700 hover:text-gray-900">
+          Account Balance
           </Link>
         </nav>
 
